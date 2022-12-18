@@ -1,0 +1,17 @@
+body{
+
+}
+.nav{
+    background-color: grey;
+    width: auto;
+    height: 70px;
+}
+.navmenu{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+}
+li a{
+    text-decoration: none;
+}
