@@ -1,17 +1,41 @@
 body{
-
+    font-family: 'Montserrat';
+    font-size: 16px;
 }
-.nav{
+.top{
     background-color: grey;
-    width: auto;
-    height: 70px;
 }
-.navmenu{
+.container{
+    margin: 0 auto;
+    max-width: 1366px;
+}
+.header{
+    padding: 15px 110px;
     display: flex;
-    list-style-type: none;
-    text-decoration: none;
-    margin: 0;
+    justify-content: space-between;
+    align-items: center;
 }
-li a{
+.logo{
+    font-size: 28px;
+    font-weight: 600;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.contacts{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.links_button{
+    margin-left: 30px;
+    width: 120px;
+    height: 40px;
+    background: #ffeb83;
+    border: none;
+    border-radius: 10px;
+}
+a{
     text-decoration: none;
 }
