@@ -142,7 +142,7 @@ text-align: center;
 }
 .titlepot{
     font-weight: 600;
-font-size: 36px;
+font-size: 34px;
 line-height: 44px;
 margin: 0 auto;
 text-align: center;
@@ -150,4 +150,12 @@ text-align: center;
 
 
 color: #FFEB83;
+}
+.examplestitle{
+    font-weight: 600;
+font-size: 35px;
+line-height: 43px;
+text-align: center;
+margin-top: 50px;
+margin-bottom: 30px;
 }
